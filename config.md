@@ -30,6 +30,18 @@ repos:
 A tool ignores the lines that belong to another: skram-vault never reads
 `projects`, skram passes `namespaces` through untouched.
 
+## Each product's own config reference
+
+This page covers the one block the products have in common. For every key
+a specific product reads, see that product's own reference:
+
+- **Skram**: [docs/config.md](https://github.com/skramstudios/skram/blob/main/docs/config.md)
+  (published with Skram's next release)
+- **Skram Vault**: [docs/vault-shape.md](https://github.com/skramstudios/skram-vault/blob/main/docs/vault-shape.md),
+  the `vault:` block section (published with Skram Vault's next release)
+- **Skram Tunnel**: the [Configuration](https://github.com/skramstudios/skram-tunnel/blob/main/README.md#configuration)
+  section of its README
+
 ## A file for skram-vault alone
 
 ```yaml
